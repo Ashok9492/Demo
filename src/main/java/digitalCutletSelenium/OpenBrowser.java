@@ -36,7 +36,7 @@ public class OpenBrowser {
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("Sign in")).click();*/
 		driver.findElement(By.linkText("WOMEN")).click();
-		
+		driver.quit();
 		
 	}
 
